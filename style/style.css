@@ -1,0 +1,270 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    height: 100%;
+    text-align: center;
+}
+
+.body1 {
+    background-image: url(/proyectocoder/img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.textoindex1 {
+    color: rgba(226, 231, 238);
+
+}
+
+.textoindex2 {
+    color: rgba(226, 231, 238);
+}
+
+.body2 {
+    background-image: url(/proyectocoder/img/8bb37a893d912a01de662ce9019917f0.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.galeria {
+    text-align: center;
+    font-size: 35px;
+}
+
+.div container-fluid {
+    background-image: url(/proyectocoder/img/esteros-del-ibera.jpg);
+}
+
+.body3 {
+    background-image: url(/proyectocoder/img/Dourado\(Salminus_brasiliensis\)emBonito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.footercontacto {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contac {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.fondo {
+    width: 100%;
+
+
+}
+
+.absolute {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body4 {
+    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textogaleria {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.footergaleria {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.carrusel {
+    text-align: center;
+    width: 40%;
+    height: 30%;
+    margin: auto;
+}
+
+
+.body5 {
+    background-image: url(/proyectocoder/img/iguazu.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 30px;
+
+}
+
+nav ul li a {
+    color: rgb(20, 19, 19);
+    border-style: solid;
+    border-radius: 5%;
+    background-color: rgba(100, 250, 100, 0.504);
+}
+
+.tituloDePagina {
+    text-align: center;
+    font-family: initial;
+    font-size: 60px;
+    margin-bottom: 10px;
+    border-bottom: 10px;
+    border-bottom: solid;
+}
+
+.barra {
+    text-decoration: none;
+    color: black;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.texto p {
+    font-family: cursive;
+    font-size: 35px;
+
+}
+
+footer {
+    font-size: 25px;
+    grid-area: footer;
+
+}
+
+.copy {
+    text-align: center;
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+}
+
+.f {
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.video {
+    text-align: center;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .contenedor {
+        width: 100%;
+    }
+
+    .barra li {
+        margin: 0%;
+        width: auto;
+    }
+
+    .texto {
+        margin: 10px;
+        width: auto;
+    }
+
+    .texto p {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    header {
+        padding: 0%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .contenedor {
+        width: 100%;
+    }
+
+    .barra li {
+        margin: 0%;
+        width: auto;
+    }
+
+    .texto {
+        margin: 10px;
+        width: auto;
+    }
+
+    .texto p {
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    header {
+        padding: 0%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-evenly;
+        font-size: 30px;
+
+    }
+
+    .contenedor h1 {
+        width: 100%;
+        margin: 0%;
+        font-size: 100%;
+        height: 50%;
+    }
+}
